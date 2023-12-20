@@ -10,7 +10,8 @@ export const metadata = {
 // npx json-server --port 9999 --watch db.json
 
 export default async function RootLayout({ children }) {
-        const resp = await fetch('http://localhost:9999/topics');
+        //const resp = await fetch('http://localhost:9999/topics', { next : {revalidate : 0}});
+        const resp = await fetch('http://localhost:9999/topics', { cache : "no-store"});
         const topics = await resp.json();
   return (
     <html lang="en">
@@ -18,7 +19,7 @@ export default async function RootLayout({ children }) {
       <h1><Link href="">WEB</Link></h1>
       <ol>
           {topics.map((topic) => {
-              return <li key={topic.id}><Link href={`/read/${topic.id}`}>{topic.title}</Link></li>
+              return <li key={topic.id}><Link href={`/read/${topic.id}`}>{topic.title}, {topic.body}</Link></li>
 
           })}
       </ol>

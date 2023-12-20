@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
     <h2>Webcome</h2>
-      Hello, Web
+      Hello, Webs
       <br/><img src="/sunset.jpg" width="100px"></img>
     </>
   )
