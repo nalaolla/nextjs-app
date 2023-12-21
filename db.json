@@ -1,0 +1,91 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "title": "html json",
+      "body": "html is...json db"
+    },
+    {
+      "id": 2,
+      "title": "css json",
+      "body": "css is...json db"
+    },
+    {
+      "id": 3,
+      "title": "javascript json",
+      "body": "javascript.  is...json db"
+    },
+    {
+      "title": "234",
+      "body": "",
+      "id": 4
+    },
+    {
+      "title": "rtwert",
+      "body": "wertwert",
+      "id": 5
+    },
+    {
+      "title": "rtwert",
+      "body": "wertwert",
+      "id": 6
+    },
+    {
+      "title": "tester",
+      "body": "asdfasdg",
+      "id": 7
+    },
+    {
+      "title": "435",
+      "body": "345345",
+      "id": 8
+    },
+    {
+      "title": "666",
+      "body": "6666",
+      "id": 9
+    },
+    {
+      "title": "bbb",
+      "body": "bbbb",
+      "id": 10
+    },
+    {
+      "title": "ccc",
+      "body": "cccc",
+      "id": 11
+    },
+    {
+      "title": "d",
+      "body": "d",
+      "id": 12
+    },
+    {
+      "title": "eee",
+      "body": "eeeee",
+      "id": 13
+    },
+    {
+      "title": "fff",
+      "body": "fff",
+      "id": 14
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
