@@ -1,2 +1,21 @@
-h1 a {text-decoration: none}
-body {background-color: white}
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+h1 a {text-decoration: none;
+    @apply 2xl:text-[72px] 2xl:text-red-400 2xl:bg-green-300  sm:text-[64px] sm:text-black sm:bg-yellow-400 text-[50px] font-extrabold;
+    @apply flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10;
+}
+
+body {
+    @apply 2xl:bg-blue-500 sm:bg-fuchsia-400 bg-white;
+}
