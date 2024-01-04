@@ -11,9 +11,10 @@
     font-family: "Manrope", sans-serif;
 }
 
-h1 a {text-decoration: none;
-    @apply 2xl:text-[72px] 2xl:text-red-400 2xl:bg-green-300  sm:text-[64px] sm:text-black sm:bg-yellow-400 text-[50px] font-extrabold;
+h1 {text-decoration: none;
     @apply flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10;
+    @apply 2xl:text-[72px] 2xl:hidden 2xl:text-red-400 2xl:bg-green-300  sm:text-[64px] sm:text-black sm:bg-yellow-400 sm:hidden text-[50px] font-extrabold;
+
 }
 
 body {
